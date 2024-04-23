@@ -1,75 +1,41 @@
-# Nuxt 3 Minimal Starter
+# Recipe Website Project
+Welcome to my Recipe Website project! This is a part of my portfolio where I showcase my skills in web development, specifically utilizing Vue.js and the Nuxt framework. I will also be exploring CI/CD principals. 
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
+This project is a recipe website where users can explore various recipes presented in the form of blog posts. It aims to provide a user-friendly and visually appealing platform for discovering and sharing culinary creations.
 
-## Setup
+## Features
+- **Recipe Blog Posts:** Recipes are presented as blog posts, making it easy for users to read and follow along.
+- **Search Functionality:** Users can search for recipes by keywords or categories.
+- **Responsive Design:** The website is optimized for various devices, ensuring a seamless experience across desktop, tablet, and mobile.
 
-Make sure to install the dependencies:
+## Technologies Used
+- **Vue.js:** A progressive JavaScript framework for building user interfaces.
+- **Nuxt.js:** A framework for creating Vue.js applications with server-side rendering, static site generation, and more.
+- **Tailwind CSS:** A utility-first CSS framework used for rapid UI development.
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
+## Getting Started
+To run the project locally, follow these steps:
 
-# yarn
-yarn install
+1) Clone this repository to your local machine.
+2) Navigate to the project directory.
+3) Install dependencies using `npm install`.
+4) Run the development server with `npm run dev`.
+5) Open your browser and visit http://localhost:3000 to view the website.
 
-# bun
-bun install
+## Project Structure
+
+```
+.
+├── pages/                # Page components (automatically routed by Nuxt.js)
+├── components/           # Vue.js components
+├── assets/               # Static assets (images, fonts, etc.)
+└── layouts/              # Layout components for different pages
 ```
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+## Continuous Integration/Continuous Deployment (CI/CD)
+As part of this project, I will be learning and practicing Continuous Integration (CI) and Continuous Deployment (CD) methodologies. This involves automating the process of building, testing, and deploying the application to production environments. By implementing CI/CD pipelines, I aim to streamline the development workflow, improve code quality, and ensure faster and more reliable releases.
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Stay tuned for updates on the integration of CI/CD pipelines into this project!
